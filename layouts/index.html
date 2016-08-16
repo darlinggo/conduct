@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+{{ partial "toc.html" . }}
+
+<div class="markdown-body">
+	{{ range .Data.Pages }}
+  {{ if in .Params.tags "_home" }}
+    {{ .Content }}
+  {{ end }}
+	{{ end }}
+</div>
+{{ partial "footer.html" . }}
