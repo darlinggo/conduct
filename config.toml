@@ -1,3 +1,4 @@
 baseurl = "https://conduct.darlinggo.co/"
 languageCode = "en-us"
 title = "Darling"
+publishDir = "public/conduct.darlinggo.co"
